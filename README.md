@@ -3,7 +3,7 @@
  * @Author: p1ay8y3ar
  * @Date: 2021-10-10 23:45:54
  * @LastEditor: p1ay8y3ar
- * @LastEditTime: 2021-10-11 00:14:51
+ * @LastEditTime: 2021-10-11 00:24:29
  * @Email: p1ay8y3ar@gmail.com
 -->
 # luci-app-webguide
@@ -35,3 +35,5 @@
     
     底部和主页都至少配置一个,大概的显示效果如下:
     ![](./imgs/webguide4.png)
+
+html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感谢！
