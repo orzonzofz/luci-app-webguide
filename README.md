@@ -3,11 +3,11 @@
  * @Author: p1ay8y3ar
  * @Date: 2021-10-10 23:45:54
  * @LastEditor: p1ay8y3ar
- * @LastEditTime: 2021-10-11 00:24:29
+ * @LastEditTime: 2021-10-11 13:57:46
  * @Email: p1ay8y3ar@gmail.com
 -->
-# luci-app-webguide
-一个简单的openwrt导航页luci插件
+# luci-app-webguide ![hope useful](https://visitor-badge.glitch.me/badge?page_id=luci-app-webguide)
+一个简单的openwrt导航页luci插件 
 
 ## 设置示例
 > 示例设置以uhttpd为例
@@ -37,3 +37,7 @@
     ![](./imgs/webguide4.png)
 
 html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感谢！
+
+
+# TODO 
+[ ]  独立web服务器,有些arm固件没有编译uhttpd插件
