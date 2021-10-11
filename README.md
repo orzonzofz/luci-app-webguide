@@ -3,7 +3,7 @@
  * @Author: p1ay8y3ar
  * @Date: 2021-10-10 23:45:54
  * @LastEditor: p1ay8y3ar
- * @LastEditTime: 2021-10-11 13:57:46
+ * @LastEditTime: 2021-10-11 13:59:42
  * @Email: p1ay8y3ar@gmail.com
 -->
 # luci-app-webguide ![hope useful](https://visitor-badge.glitch.me/badge?page_id=luci-app-webguide)
@@ -40,4 +40,4 @@ html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感
 
 
 # TODO 
-[ ]  独立web服务器,有些arm固件没有编译uhttpd插件
+- [ ]  独立web服务器,有些arm固件没有编译uhttpd插件
