@@ -3,7 +3,7 @@
  * @Author: p1ay8y3ar
  * @Date: 2021-10-10 23:45:54
  * @LastEditor: p1ay8y3ar
- * @LastEditTime: 2021-10-11 13:59:42
+ * @LastEditTime: 2021-10-13 00:48:49
  * @Email: p1ay8y3ar@gmail.com
 -->
 # luci-app-webguide ![hope useful](https://visitor-badge.glitch.me/badge?page_id=luci-app-webguide)
@@ -21,7 +21,7 @@
    保存修改后**重启**.
     推荐使用80端口,可先行修改MIAN的端口为其他端口
 
-2. [下载](https://github.com/p1ay8y3ar/luci-app-webguide/releases)并上传插件到op安装,如果服务栏目没有出现`WebGuide`,请尝试重启op.
+2. [下载](https://github.com/p1ay8y3ar/luci-app-webguide/releases)并上传插件到op安装,如果服务栏目没有出现`WebGuide`,请尝试重启op或者删一下LuCi缓存`rm -rf /tmp/luci-*`.
 3. **WebGuide**配置
    配置界面如下
    ![](./imgs/webguide1.png)
