@@ -59,6 +59,6 @@ o.rmempty = false
 
 local apply = luci.http.formvalue("cbi.apply")
 if apply then
-    luci.sys.exec("python /usr/share/webguide.py > /dev/null 2>&1")
+    luci.sys.exec("/usr/bin/python /usr/share/webguide.py > /dev/null 2>&1")
 end
 return m
