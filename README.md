@@ -75,4 +75,7 @@ html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感
    
    保存后运行`/etc/init.d/nginx reload` 和 `/etc/init.d/nginx restart`
    
+   
+   WebGuide配置见 *以uhttpd为web服务器的设置* 部分
 </details>
+
