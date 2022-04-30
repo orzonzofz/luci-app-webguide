@@ -69,15 +69,20 @@
    
 配置界面如下
 ![](./imgs/webguide1.png)
+   
 url要填写完整的协议，比如`https://www.baidu.com`
+   
 主要是图标文件的设置:推荐使用阿里巴巴旗下的[iconfont](https://www.iconfont.cn/)
  选中心仪的图标
+   
  ![](./imgs/webguide2.png)
 
  复制svg代码粘贴到设置界面即可
+   
  ![](./imgs/webguide3.png)
 
  底部和主页都至少配置一个,大概的显示效果如下:
+   
  ![](./imgs/webguide4.png)
 
 html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感谢！
