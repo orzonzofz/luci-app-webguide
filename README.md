@@ -12,7 +12,7 @@
 ## 设置示例
 
 <details>
-<summary>以uhttpd为web服务器的设置</summary>
+<summary>以uhttpd为web服务器的设置 <---点这里</summary>
    
    
 1. web服务器uhttpd设置
@@ -25,26 +25,12 @@
     推荐使用80端口,可先行修改MIAN的端口为其他端口
 
 2. [下载](https://github.com/p1ay8y3ar/luci-app-webguide/releases)并上传插件到op安装,如果服务栏目没有出现`WebGuide`,请尝试重启op或者删一下LuCi缓存`rm -rf /tmp/luci-*`.
-3. **WebGuide**配置
-   配置界面如下
-   ![](./imgs/webguide1.png)
-   url要填写完整的协议，比如`https://www.baidu.com`
-   主要是图标文件的设置:推荐使用阿里巴巴旗下的[iconfont](https://www.iconfont.cn/)
-    选中心仪的图标
-    ![](./imgs/webguide2.png)
 
-    复制svg代码粘贴到设置界面即可
-    ![](./imgs/webguide3.png)
-    
-    底部和主页都至少配置一个,大概的显示效果如下:
-    ![](./imgs/webguide4.png)
-
-html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感谢！
 
 </details>
 
 <details>
-<summary>以nginx为web服务器的设置</summary>
+<summary>以nginx为web服务器的设置     <---点这里</summary>
    
    
 示例openwrt:[kiddin9版本的op](https://github.com/kiddin9/OpenWrt_x86-r2s-r4s)
@@ -75,7 +61,23 @@ html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感
    
    保存后运行`/etc/init.d/nginx reload` 和 `/etc/init.d/nginx restart`
    
-   
-   WebGuide配置见 *以uhttpd为web服务器的设置* 部分
+
 </details>
 
+   
+**WebGuide**配置
+   
+配置界面如下
+![](./imgs/webguide1.png)
+url要填写完整的协议，比如`https://www.baidu.com`
+主要是图标文件的设置:推荐使用阿里巴巴旗下的[iconfont](https://www.iconfont.cn/)
+ 选中心仪的图标
+ ![](./imgs/webguide2.png)
+
+ 复制svg代码粘贴到设置界面即可
+ ![](./imgs/webguide3.png)
+
+ 底部和主页都至少配置一个,大概的显示效果如下:
+ ![](./imgs/webguide4.png)
+
+html页面来自[nas-home-page](https://github.com/blqw/nas-home-page),再次感谢！
